@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ua" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJm4zzg06DrfnxHBaG1HQ2PFIY1BQBgSs&callback=initMap"></script>
+  </head>
+  <body onload="window.scrollTo({top: 0,behavior: 'smooth'})">
+    <div id="header-bg">
+      <section id="header">
+          <span class="navbar">
+            <span>home</span>
+            <span onclick="window.scrollTo({top: document.getElementById('requirement').offsetTop ,behavior: 'smooth'})">our requirement</span>
+            <span onclick="window.scrollTo({top: document.getElementById('help').offsetTop,behavior: 'smooth'})">help</span>
+            <span onclick="window.scrollTo({top: document.getElementById('we-offer').offsetTop,behavior: 'smooth'})">we offer</span>
+            <span onclick="window.scrollTo({top: document.getElementById('contacts').offsetTop,behavior: 'smooth'})">contacts</span>
+          </span>
+          <div id="send-request">
+            <div id="send-request-form">
+              <span>
+              sent request
+            </span>
+              <input type="text" name="" value="" placeholder="Input your name">
+              <hr>
+              <p>input email</p>
+              <input type="text" name="" value="example_email@gmail.com">
+              <hr>
+              <button type="button" name="button">sent</button>
+            </div>
+            <div id="send-request-foto"><img src="img/image.png" alt=""></div>
+          </div>
+      </section>
+    </div>
+      <section id="requirement">
+        <h3>our requirement</h3>
+          <div id="requirement-wrapper">
+            <div class="requirement-items"><img src="img/requirments/1.png"><p>Front end - HTML 5 and CSS3 are main technology of the UI code (CSS3 can replace JS in many cases).</p></div>
+            <div class="requirement-items"><img src="img/requirments/2.png"><p>Pixel-Perfect level of UI - must be accurate on pixel level to PSD design.</p></div>
+            <div class="requirement-items"><img src="img/requirments/3.png"><p>Cannot be any copiright mark, link, name, signature, email, images in any of the code files, filenames, project images and any other project asset.</p></div>
+            <div class="requirement-items"><img src="img/requirments/4.png"><p>The developer cannot use any modules and plugins which are not free to use & with free license of use.</p></div>
+            <div class="requirement-items"><img src="img/requirments/5.png"><p>Resolutions ready - link - need to include all desktops, including large screens and resolutions.</Resolutions></p></div>
+            <div class="requirement-items"><img src="img/requirments/6.png"><p>Code - classes, IDis and script names - recuired to be named properly - for future editing.</p></div>
+            <div class="requirement-items"><img src="img/requirments/7.png"><p>Sliders with layers & float text required to feet for any responsive layout.</p></div>
+            <div class="requirement-items"><img src="img/requirments/8.png"><p>1 element for all layouts - Header, Footer, Body, Menu, fields & forms - cannot have duplicate elements for desktop and mobile (you required to do 1 elements which will fit to all layouts properly).</p></div>
+          </div>
+      </section>
+      <section id="help">
+        <img src="img/bg_png/right-white.png" alt="">
+        <section id="help-wrapper">
+          <h2>help</h2>
+          <div class="help-items">
+            <h1>1.</h1>
+            <p><b>NAME FONTS:<br>Cosmic Sans MS<br></b>TEXT COLOR <b>#272F2F</b><br>COLOR BUTTONS (GRADIENT) FROM <b>#FB6A4E </b>TO<b><br>FF606A</b></p>
+          </div>
+          <div class="help-items left">
+            <h1>2.</h1>
+            <p><b>CLEAN, ROBUST, DYNAMIC & ORGANIZED<br>CODE ARE ESSENTIAL!</b></p>
+          </div>
+          <div class="help-items">
+            <h1>3.</h1>
+            <p><b>FILE NAMES NEED TO BE CLEAR AND LOGIC.<br> BACK-END FILES AND FOLDERS ORGANIZATION -<br>IMAGES, CSS, JS, FONTS, AND ANY OTHER PROJECT<br>ASSET - REQUIRED TO BE IN DEDICATED FOLDERS</b></p>
+          </div>
+          <div class="help-items left">
+            <h1>4.</h1>
+            <p><b>USE HOVER EFFECTS, ANIMATIONS AND<br>FIELSD VALIDATIONS (E.G EMAILS, ID,<br>NAMES, PHONES, ETC..) WHERE POSSIBLE,<br>KEEP IN MIND THAT SOMETIMES THE<br>DESIGNERS FORGET TO CREATE THEM.</b></p>
+          </div>
+        </section>
+        <img src="img/bg_png/right-white.png" alt="" class="right">
+      </section>
+      <section id="we-offer">
+        <h1>we offer:</h1>
+        <div class="offer-wrapper">
+          <div class="offer-items" onmouseover="this.children[0].src = 'img/offers/hover1.png'" onmouseout="this.children[0].src = 'img/offers/1.png'">
+            <img src="img/offers/1.png" alt="">
+            <p>career growth</p>
+          </div>
+          <div class="offer-items" onmouseover="this.children[0].src = 'img/offers/hover2.png'" onmouseout="this.children[0].src = 'img/offers/2.png'">
+            <img src="img/offers/2.png" alt="">
+            <p>flexible working schedule</p>
+          </div>
+          <div class="offer-items" onmouseover="this.children[0].src = 'img/offers/hover3.png'" onmouseout="this.children[0].src = 'img/offers/3.png'">
+            <img src="img/offers/3.png" alt="">
+            <p>comfortable workplace</p>
+          </div>
+          <div class="offer-items" onmouseover="this.children[0].src = 'img/offers/hover4.png'" onmouseout="this.children[0].src = 'img/offers/4.png'">
+            <img src="img/offers/4.png" alt="">
+            <p>competitive salary <br>according to the<br> qualifications</p>
+          </div>
+          <div class="offer-items" onmouseover="this.children[0].src = 'img/offers/hover5.png'" onmouseout="this.children[0].src = 'img/offers/5.png'">
+            <img src="img/offers/5.png" alt="">
+            <p>corporate leasure activities</p>
+          </div>
+          <div class="offer-items" onmouseover="this.children[0].src = 'img/offers/hover6.png'" onmouseout="this.children[0].src = 'img/offers/6.png'">
+            <img/offers/6.png" alt="">
+            <p>english lessons</p>
+          </div>
+        </div>
+      </section>
+      <section id="contacts">
+        <h1>contacts</h1>
+        <div class="contact-wrapper">
+          <div id="send-request-form">
+            <span class="white">
+            sent request
+          </span>
+            <input type="text" name="" value="" placeholder="Input your name">
+            <hr>
+            <p>input email</p>
+            <input type="text" name="" value="example_email@gmail.com" class="white">
+            <hr>
+            <button type="button" name="button">sent</button>
+          </div>
+          <div class="address">
+            <h1>get in touch</h1>
+            <p><b>ukraine, lviv</b></p>
+            <p><b>telephone: +380509214381</b></p>
+            E-mail: pecodesoftware@gmail.com
+            <div class="social-foto">
+            <img src="img/sotial_network/fb.png" alt="" onmouseover="this.src = 'img/sotial_network/fb_active.png'" onmouseout="this.src = 'img/sotial_network/fb.png'">
+            <img src="img/sotial_network/twitter.png" alt="" onmouseover="this.src = 'img/sotial_network/twiter_active.png'" onmouseout="this.src = 'img/sotial_network/twitter.png'">
+            <img src="img/sotial_network/linkedin.png" alt="" onmouseover="this.src = 'img/sotial_network/linkedin_active.png'" onmouseout="this.src = 'img/sotial_network/linkedin.png'">
+          </div>
+          </div>
+        </div>
+        <div id="map"></div>
+        <span>created by jenya loyowskiy</span>
+      </section>
+    <script>
+function initMap() {
+  var pecode = {lat: 49.7943459, lng: 24.0048023};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: pecode});
+  var marker = new google.maps.Marker({position: pecode, map: map});
+}
+    </script>
+  </body>
+</html>
