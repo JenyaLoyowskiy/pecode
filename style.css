@@ -357,7 +357,7 @@
 
 @font-face {
   font-family: 'Cosmic';
-  src: url('cosmic.ttf') format('truetype');
+  src: url('fonts/cosmic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
