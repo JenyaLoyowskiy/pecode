@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: CURSIVE;
+  font-family: Cosmic;
 }
 
 .white {
@@ -355,4 +355,10 @@
   }
 }
 
+@font-face {
+  font-family: 'Cosmic';
+  src: url('cosmic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /*# sourceMappingURL=style.css.map */
